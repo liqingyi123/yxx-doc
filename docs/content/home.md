@@ -8,7 +8,7 @@
 进入[HbuilderX官网](https://www.dcloud.io/hbuilderx.html)下载你的系统对应的HX安装包
 
 安装完成后，你需要下载一些插件来让HX支持uni-app的编译运行和打包，包含`scss/sass编译`、`uni-app APP调试`、`uni-app (Vue 2) 编译`、`uni-app (Vue 3) 编译`这些插件。具体步骤为
-1. 点击根据栏的工具
+1. 点击工具栏的工具
 2. 插件安装-安装新插件
 3. 若上述插件不在列表中则点击前往插件市场安装
 
