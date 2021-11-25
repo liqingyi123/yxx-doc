@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="description" content="Description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    </head>
+    <body>
+        <div id="app">加载中</div>
+        <script>
+            window.$docsify = {
+                name: '严选星 uni-app',
+                repo: 'http://gitlab.private.bangtk.com:8299/wuse-v2/yxx-uni',//配置仓库地址
+                // alias: {
+                //     '/.*/_sidebar.md': '/_sidebar.md'
+                // },
+                coverpage: 'layout/_coverpage.md',//有无封面
+                subMaxLevel: 4,//显示目录
+                loadSidebar: 'layout/_sidebar.md',//是否定制侧边栏
+                // loadNavbar: 'layout/_navbar.md',//加载自定义导航栏
+                auto2top: true,//切换页面后是否自动跳转到页面顶部
+                // relativePath: true,//relativePath
+                autoHeader: true,
+                onlyCover: true,
+            }
+        </script>
+        <!-- Docsify v4 -->
+        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+        <!-- emoji 解析 -->
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+        <!-- Medium's 风格的图片缩放插件 -->
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+        <!-- 复制到剪贴板 -->
+        <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    </body>
+</html>
