@@ -247,7 +247,7 @@ methods: {
 ### 本项目专用工具库 public.js
 | 函数名 | 用途 |
 |:---:|:---|
-| createSharePath | 创建分享路径 |
+| createShareCard | 创建分享路径 |
 | quickNav | 快捷导航 |
 | beforePageLoad | 页面初始化时的数据填充 |
 | activeMaskList | 获取活动弹窗和浮窗列表并自动装填弹窗和浮窗 |

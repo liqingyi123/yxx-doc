@@ -42,7 +42,7 @@ pages目录下的`router.js`文件为路由文件,本框架中所有页面跳转
 
 7. **邀请分享动作统一配置**
 
-> 请使用public.js中的`createSharePath`自动拼装分享路径函数进行分享卡片内容定制
+> 请使用public.js中的`createShareCard`自动拼装分享路径函数进行分享卡片内容定制
 
 8. **优化限频接口**
 
