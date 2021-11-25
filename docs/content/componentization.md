@@ -36,7 +36,7 @@ methods: {
 | 字段 | 类型 | 必填 | 默认值 | 用途 |
 |:---:|:---:|:---:|:---:|:---|
 | startWithMonday | Boolean | 否 | false | 周起始日为周一，默认以周日 |
-| lineCount | String/Number | 否 | 5 | 单月限时行数 |
+| lineCount | String/Number | 否 | 5 | 单月显示行数 |
 | fontSize | String/Number | 否 | 30 | 字体大小 |
 | activeStyle | Object | 否 | {} | 当前天的样式 |
 | isChoice | Boolean | 否 | true | 日期是否可选 |
