@@ -7,4 +7,4 @@
 - Vue2.x语法
 
 [GitLab](http://gitlab.private.bangtk.com:8299/wuse-v2/yxx-uni)
-[让我们开始吧](/content/home.md)
+[开始吧](/content/home.md)

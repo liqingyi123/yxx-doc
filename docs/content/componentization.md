@@ -260,6 +260,23 @@ methods: {
 | reportPageVisit | 页面访问统计 |
 | reportSearchKeyClick | 关键字搜索统计 |
 | getPddGoodsBuyLink | 生成购买链接 |
+### 过滤器集群 filter.js
+| 函数名 | 用途 |
+|:---:|:---|
+| formatNumber | 将number千万换成整型数字加文字 |
+| subString | 字符串截取 |
+| toFix | 保留小数点 |
+| sliceArray | 从start到end截取数组arr |
+| splitToArray | 以field分隔str为数组 |
+| toNumber | 转换为数字类型 |
+| randomNum | 生成随机数 |
+| starTxt | 加密过滤器 |
+| arrItemExchange | 数组元素换位置 |
+| getCharCode | 获取26个英文字母的某一个 |
+| typeOf | 获取数据类型 |
+| hasVal | 判断str字段是否包含val |
+| removeEndZero | 去除末尾多余的0 |
+| saveTxtToStar | 保留字符长度，剩余的用...代替 |
 ### 正则字典 regular.js
 | 正则名称 | 用途 |
 |:---:|:---|
