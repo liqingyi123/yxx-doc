@@ -11,3 +11,11 @@
 ## 联系作者
 
 [联系框架作者QQ](tencent://message/?uin=1787750205&Site=qq&Menu=yes)
+
+或者扫描下方二维码添加作者好友
+
+<center>
+
+![加我QQ好友](https://www.weblqy.top/work/yxx/QQ.jpg ':size=300')
+![加我微信好友](https://www.weblqy.top/work/yxx/WX.jpg ':size=300')
+</center>
