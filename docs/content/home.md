@@ -2,6 +2,12 @@
 ## 快速开始
 ### 导入项目
 点击右上角图标或者点击[此链接](http://gitlab.private.bangtk.com:8299/wuse-v2/yxx-uni)进入gitlab面板
+
+你也可以复制以下命令
+```cmd
+git clone git@gitlab.private.bangtk.com:wuse-v2/yxx-uni.git
+cd yxx-uni
+```
 ### 下载、配置HbuilderX
 ?> 只需下载标准版即可
 
