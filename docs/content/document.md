@@ -249,11 +249,11 @@ javascript.json文件中：
             "    premiseType: '&&',",
             "    options,",
             "    unPremiseFun: ()=>{",
-            "        wx.showModal({",
+            "        uni.showModal({",
             "            content: '参数异常',",
             "            showCancel: false,",
             "            success: ()=>{",
-            "                goBackPage(globalData.router['home'])",
+            "                goBackPage(globalData.router['home'].path)",
             "            }",
             "        });",
             "        $3",
@@ -295,7 +295,7 @@ html.json文件中：
         "prefix": "swiper",
         "body": [
             "<swiper autoplay circular interval=\"{{3000}}\">",
-            "    <swiper-item wx:for=\"{{$1}}\" wx:key=\"index\">",
+            "    <swiper-item v-for=\"(item,index) in $1\" :key=\"index\">",
             "        <image src=\"{{item}}\" />",
             "        <view class=\"\"></view>",
             "        $2",
@@ -314,14 +314,14 @@ html.json文件中：
     "遍历": {
         "prefix": "for",
         "body": [
-            "wx:for=\"{{$1}}\" wx:key=\"index\""
+            "v-for=\"(item,index) in $1\" :key=\"index\""
         ],
         "description": "遍历"
     },
     "遍历-自定义字段": {
         "prefix": "fork",
         "body": [
-            "wx:for=\"{{$1}}\" wx:for-item=\"el\" wx:for-index=\"k\" wx:key=\"k\""
+            "v-for=\"($2,$3) in $1\" :key=\"$3\""
         ],
         "description": "遍历-自定义字段"
     }
