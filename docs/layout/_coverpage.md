@@ -1,4 +1,5 @@
 <!-- # 严选星 <small>1.2111.1</small> -->
+![logo](/logo.png ':size=150')
 # 严选星
 
 > 基于uni-app的跨平台项目
