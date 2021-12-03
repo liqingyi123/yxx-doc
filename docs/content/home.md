@@ -1,9 +1,9 @@
 # 开始
 ## 快速开始
 ### 导入项目
-点击右上角图标或者点击[此链接](http://gitlab.private.bangtk.com:8299/wuse-v2/yxx-uni)进入gitlab面板
+点击页面右上角图标或者点击[此超链接](http://gitlab.private.bangtk.com:8299/wuse-v2/yxx-uni)进入gitlab面板
 
-你也可以复制以下命令
+你也可以复制以下命令来导入项目
 ```cmd
 git clone git@gitlab.private.bangtk.com:wuse-v2/yxx-uni.git
 cd yxx-uni
@@ -11,7 +11,7 @@ cd yxx-uni
 ### 下载、配置HbuilderX
 ?> 只需下载标准版即可
 
-进入[HbuilderX官网](https://www.dcloud.io/hbuilderx.html)下载你的系统对应的HX安装包
+进入[HbuilderX官网](https://www.dcloud.io/hbuilderx.html)下载对应你电脑系统的HX安装包
 
 安装完成后，你需要下载一些插件来让HX支持uni-app的编译运行和打包，包含`scss/sass编译`、`uni-app APP调试`、`uni-app (Vue 2) 编译`、`uni-app (Vue 3) 编译`这些插件。具体步骤为
 1. 点击工具栏的工具
